@@ -1,0 +1,26 @@
+
+
+<div class="container">
+    
+        <table class="table table-bordered" *ngIf="arrBirds">
+      <thead>
+          <tr>
+              <th>srno</th>
+              <th>Date</th>
+              <th>Event</th>
+              <th>City</th>
+              <th>Venue</th>
+            </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let bird of arrBirds">
+              <td>{{bird.srno}}</td>
+              <td>{{bird.Date}}</td> 
+              <td>{{bird.Event}}</td> 
+              <td>{{bird.City}}</td> 
+              <td>{{bird.Venue}}</td>
+            </tr>
+       
+      </tbody>
+    </table>
+  </div>

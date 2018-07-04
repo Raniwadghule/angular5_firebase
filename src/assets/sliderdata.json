@@ -1,0 +1,17 @@
+[
+    {
+      "srno": 1,
+      "ImageUrl": "IMAGE_URL1.jpg",
+      "alt": "IMAGE_URL1"
+    },
+    {
+      "srno": 2,
+      "ImageUrl": "IMAGE_URL2.jpg",
+      "alt": "IMAGE_URL2"
+    },
+    {
+      "srno": 3,
+      "ImageUrl": "IMAGE_URL3.jpg",
+      "alt": "IMAGE_URL3"
+    }
+  ]

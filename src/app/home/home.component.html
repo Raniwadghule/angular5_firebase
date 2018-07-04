@@ -1,0 +1,121 @@
+<div class="row">
+    <div class="column left" style="background-color:	#f2f2f2; ">
+<div style="text-align:left;width:500px;">
+    
+
+  
+  <div class="slider" *ngIf="arrSlider">
+                    <div ng2-carouselamos class="slides-wrapper" ng-repeat="image in images" ng-show="image.visible" *ngFor="let sldr of arrSlider">
+          <div>
+              <img src="../../assets/images/{{sldr.ImageUrl}}" width="100%" height="100px" />
+              <h3><b>{{sldr.alt}}</b></h3>
+              </div> 
+       
+      </div>
+    </div>
+  
+</div>
+</div>
+<div class="column right" style="background-color:	#f2f2f2;">
+    <div class="card">
+     
+      <div class="fakeimg" >Write Something</div>
+     
+    </div>
+    <div class="card">
+     
+      <div class="fakeimg" >Write Something</div>
+    </div>
+    <div class="card">
+      
+      <div class="fakeimg">Write Something</div>
+      
+    </div>
+  </div>
+  </div>
+  <div>  
+      <h1>Facilities at MOPO</h1>
+    <div class="row">
+        <div class="column2" style="background-color:#aaa;">
+            <div class="container">
+            <img src="../assets/images/IMAGE_URL1.jpg" alt="Flowers in Chania" width="330" height="290">
+            <!-- <div class="text-block">
+                <h4>Nature</h4>
+                <p>What a beautiful sunrise</p>
+              </div> -->
+            </div>
+        </div>
+        <div class="column2" style="background-color:#aaa;">
+            <div class="container">
+            <img src="../assets/images/IMAGE_URL3.jpg" alt="Flowers in Chania" width="330" height="290">
+            <!-- <div class="text-block">
+                <h4>Nature</h4>
+                <p>What a beautiful sunrise</p>
+              </div> -->
+            </div>
+        </div>
+        <div class="column2" style="background-color:#aaa;">
+            <div class="container" >
+            <img src="../assets/images/IMAGE_URL3.jpg" alt="Flowers in Chania" width="330" height="290">
+            <!-- <div class="text-block">
+                <h4>Nature</h4>
+                <p>What a beautiful sunrise</p>
+              </div> -->
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="Mopo">
+    <h1>About Mopo</h1>
+    <p>Something....</p>
+  </div>
+  <div class="login" style="background-color: lightslategrey">
+     
+        <h1 align="center">Subcribe to NewSletter</h1>
+        <label for="fname" style="margin-left:50px;"> Name</label >
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." style="margin-left:30px;">
+        <label for="email"style="margin-left:50px;">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email.."style="margin-left:30px;">
+        <input type="submit" value="Subscribe" style="margin-left:50px;">
+     
+  
+  </div>
+  <div class="row3">
+      <div class="column3" style="background-color:black; color:white; align: center;">
+        <b>Sitemap</b>
+        <p>About</p>
+        <p>Carrers</p>
+      </div>
+      <div class="column3" style="background-color:black; color:white;">
+        <b>Address</b>
+        <p>Some text..</p>
+      </div>
+      <div class="column3" style="background-color:black; color:white;">
+        <h2>Mopo</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column3" style="background-color:black; color:white; ">
+        <h2>Logo</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+
+
+
+    <!-- <div #map1 class="header-banner">
+        <ion-slides *ngIf="result && result.length" class="slideroption" pager="true"  autoplay="600" loop>
+          <ion-slide *ngFor="let item of result; let i = index; let f=first; let l=last;">
+            <ion-card>
+              <ion-card-content>
+                <div>
+                    <img src="../../assets/OfferImages/{{item.OfferImgURL}}" />
+                    <h1><b>{{item.OfferDetails}}</b></h1>                
+                    <h3>Offers start from date </h3>{{item.OfferStartDate}}
+                    <h3>Offers valid upto date </h3>{{item.OfferEndDate}}
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-slide>
+        </ion-slides>
+      </div>
+   -->
